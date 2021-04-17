@@ -1,8 +1,11 @@
 <resources>
-    <string name="app_name">shareapk2</string>
+	<string name="app_name">Share Apk</string>
 
-    <string name="app_size_b">%1$.2f B</string>
-    <string name="app_size_kib">%1$.2f KiB</string>
-    <string name="app_size_mib">%1$.2f MiB</string>
-    <string name="app_size_gib">%1$.2f GiB</string>
+	<string name="app_size_b">%1$.2f B</string>
+	<string name="app_size_kib">%1$.2f KiB</string>
+	<string name="app_size_mib">%1$.2f MiB</string>
+	<string name="app_size_gib">%1$.2f GiB</string>
+	<string name="share_apk_logo">Share Apk Logo</string>
+	<string name="rate_us">Rate Us!</string>
+	<string name="rate">Rate</string>
 </resources>

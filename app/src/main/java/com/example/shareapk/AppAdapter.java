@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
@@ -51,6 +52,7 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.AppViewHolder> {
 
                 Intent shareAPkIntent = new Intent();
                 shareAPkIntent.setAction(Intent.ACTION_SEND);
+
 
                 shareAPkIntent.putExtra(Intent.EXTRA_STREAM, FileProvider.getUriForFile(
                         context,BuildConfig.APPLICATION_ID + ".provider", new File(apps.get(position).getApkPath())
